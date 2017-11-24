@@ -1,15 +1,9 @@
 package main
 
 import (
-	"io"
-	"net/http"
+	"github.com/gevlee/storage-proxy/cmd/server/app"
 )
 
-func hello(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "Hello world!")
-}
-
 func main() {
-	http.HandleFunc("/", hello)
-	http.ListenAndServe(":8000", nil)
+	app.Execute();
 }
