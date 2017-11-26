@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-env GOOS=windows GOARCH=386 go build -o bin/windows386/server.exe gitlab.com/gevlee/storage-proxy/cmd/server
+env GOOS=windows GOARCH=386 go build -o bin/win386/server.exe -ldflags "-X gitlab.com/gevlee/storage-proxy/cmd/server/app.Version=$(cat VERSION)" gitlab.com/gevlee/storage-proxy/cmd/server
