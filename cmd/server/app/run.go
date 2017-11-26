@@ -7,7 +7,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/gevlee/storage-proxy/handlers"
+	"gitlab.com/gevlee/storage-proxy/handlers"
 
 	"github.com/gorilla/mux"
 	"github.com/spf13/cobra"

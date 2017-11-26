@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/gevlee/storage-proxy/cmd/server/app"
+	"gitlab.com/gevlee/storage-proxy/cmd/server/app"
 )
 
 func main() {
-	app.Execute();
+	app.Execute()
 }
