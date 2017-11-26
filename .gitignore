@@ -17,3 +17,4 @@ vendor.orig/*
 Gopkg.lock
 config.yml
 bin/*
+cmd/server/debug
